@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lai Chamroeun | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,500;14..32,700;14..32,800&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Port<span>folio</span></div>
+        <nav>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="theme-toggle">
+            <i class="fas fa-moon" id="theme-icon"></i>
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h3>Hello, I'm</h3>
+                <h1>Lai Chamroeun</h1>
+                <h2>Software, Desinger and SQL</h2>
+                <p>Building clean, efficient backend systems and database.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="asset/MY CV.pdf" target="_blank" class="btn cv-btn"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+            <div class="hero-profile">
+                <div class="profile-img-box">
+                    <img src="asset/Chamroeun4x6.jpg" alt="Lai Chamroeun" onerror="this.style.display='none';">
+                    <i class="fas fa-user-code placeholder-avatar"></i>
+                </div>
+            </div>
+            <div class="hero-icon">
+                <a href="https://www.facebook.com/share/1EPGEDKMWE/"><i class="bx bxl-facebook"></i></a>
+                <a href="https://t.me/chamroeunlai2627"><i class="fa-brands fa-telegram"></i></a>
+                <a href="mailto:laichomroeun2021@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                    <a href="tel:+855966892627"><i class="fa-solid fa-phone"></i></a>
+                    <span style="font-size: 25px;">096 689 2627</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>I am a passionate software developer and IT enthusiast dedicated to building clean, maintainable code and managing secure environments. 
+                    My core technical skills include frontend web development with <strong>HTML & CSS</strong>, backend programming using <strong>PHP</strong>, 
+                    desktop winforms application by using <strong>C# - EFCore </strong>
+                    and robust <strong>Database (SQL)</strong> management. Additionally, I have hands-on experience in managing <strong>Windows Server</strong> 
+                    infrastructure and domain environments, making me versatile in both software development and system administration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-brands fa-html5" style="color: #FF0000;"> </i> <h3>HTML</h3></div>
+            <div class="skill-card"><i class="fa-brands fa-css3-alt" style="color: #0078d6;"></i> <h3>CSS</h3></div>
+            <div class="skill-card"><i class="fas fa-code" style="color: #68217a;"></i> <h3>C# / EF Core</h3></div>
+            <div class="skill-card"><i class="fab fa-php" style="color: #777bb4;"></i> <h3>PHP</h3></div>
+            <div class="skill-card"><i class="fas fa-database" style="color: #00758f;"></i> <h3>MySQL & SQL Server</h3></div>
+            <div class="skill-card"><i class="fab fa-windows" style="color: #0078d6;"></i> <h3>Windows Server & AD</h3></div>
+            <div class="skill-card"><i class="fab fa-git-alt" style="color: #f05032;"></i> <h3>Git & GitHub</h3></div>
+            <div class="skill-card"><img src="asset/photoshop.png" alt="" height="40px"> <h3>Graphic Design</h3></div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Employee Management System</h3>
+                    <p class="tech-stack">C# • EF Core • SQL Server</p>
+                    <img class="projects-pic" src="asset/pic1.png" alt="">
+                    <a href="asset/download/Employee_Management_System_EFCore.rar" class="project-link"><i class="fas fa-download"></i> Download Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Store Management System</h3>
+                    <p class="tech-stack">C# • SQL Server</p>
+                    <img class="projects-pic" src="asset/Screenshot 2026-06-18 221032.png" alt="">
+                    <a href="asset/download/Assignment.rar" class="project-link"><i class="fas fa-download"></i> Download Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>SBKU Website</h3>
+                    <p class="tech-stack">HTML5 • CSS</p>
+                    <img class="projects-pic" src="asset/sbkusite.png" alt="">
+                    <a href="https://schoolsbku.vercel.app/" target="_blank" class="project-link"><i class="fab fa-github"></i> View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <p>Let's collaborate on your next tech venture. Drop me a line below!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Lai Chamroeun. All Rights Reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
